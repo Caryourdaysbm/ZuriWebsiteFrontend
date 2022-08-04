@@ -98,57 +98,105 @@ h3{
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
-    .text-center {
-        text-align: center;
-    }
-    .text-left {
-        text-align: left;
-    }
-    .program-content p.slogan {
-        font-size: 3rem;
-        line-height: 6rem;
-        text-align: center;
-        color: #514949;
-        margin-top: 8px;
-        margin-bottom: 64px;
-    }
-    img.zuri-training-svg{
-   
-        /* vertical-align: middle; */
-        width: 30%;
-        height: 30%;
-;
-    }
-    .program-card img {
-        margin-bottom: 5rem;
-    }
-    img {
-        vertical-align: middle;
-        border-style: none;
-    }
-    
-.program-card p {
-    font-size: 1rem;
-    line-height: 3rem;
-    color: #514949;
-    opacity: 0.9;
-}
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-}
-
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
-p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+    .text-center {
+        text-align: center;
+    }
+    .text-left {
+        text-align: left;
+    }
+    .program-content, p.slogan {
+        font-size: 3rem;
+        line-height: 6rem;
+        text-align: center;
+        color: #514949;
+        margin-top: 0.5rem;
+        margin-bottom: rem;
+    }
+    
+    img.zuri-training-svg img{
+   
+        /* vertical-align: middle; */
+        width: 30%;
+        height: 30%;
+;
+    }
+    .my-container.program-card img {
+        margin-bottom: 5rem;
+    }
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+    .my-container{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+    }
+.program-card p {
+    background-color: #FFFAFA;
+    font-size: 0.95rem;
+    line-height: 3rem;
+    color: #514949;
+    opacity: 0.9;
+   padding: 10rem;
+   text-align: left;
+   margin: 1.5rem auto;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 .text-left {
     text-align: left;
 }
+.container-fluid .my-container{
+justify-content: center;
+margin-left: 4rem;
+margin-right: auto ;
+}
+
+
+
+
+
+
+/* .zuriTeam-img{
+    margin: 1.5rem auto;
+    padding: 2.5rem 0 0 0;
+}
+img.logo-img{
+  display: block;  
+  padding-top: 16px;
+  margin:16px auto;
+  margin-bottom: 20px;
+  /* vertical-align: middle; */
+  width: 100px;
+  height: 100px;
+}
+img{
+    display: block;
+    /* vertical-align: middle; */
+ 
+}
+.learnBG{
+    text-align: center;
+}
+.learnBG h1 {
+    
+    font-size: 2rem;
+    line-height: 2.7rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #514949;
+    opacity:0.9;
+} */
