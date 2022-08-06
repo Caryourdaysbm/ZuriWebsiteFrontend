@@ -19,21 +19,23 @@ a:hover{
     color: #eb5850;
 }
 .zuriTeam-img{
-    margin: 10rem auto;
-    padding: 7rem 0 0 0;
+    margin-bottom: 12rem auto;
+    padding: 4rem 0 0 0;
 }
 img.logo-img{
   display: block;  
-  padding-top: 2rem;
-  margin:auto;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 1.3rem;
   /* vertical-align: middle; */
-  width: 30%;
-  height: 30%;
+  /* width: 30%;
+  height: 30%; */
 }
 img{
-    display: block;
-    /* vertical-align: middle; */
+    /* display: block; */
+    vertical-align: middle;
  
 }
 .learnBG{
@@ -41,7 +43,7 @@ img{
 }
 .learnBG h1 {
     
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     line-height: 2.7rem;
     text-align: center;
     margin-bottom: 5rem;
@@ -76,13 +78,21 @@ button.btn {
     background-color: #E7332B;
     color: #fff;
 }
+.btn-red-bg:hover:active{
+    background-color: #fff;
+    color: #E7332B;
+}
 .btn {
-    padding: 2rem 4rem;
+    padding: 0.8rem 2rem;
     border: 1px solid #E7332B;
 }
 .btn-red-outline {
     background-color: #fff;
     color: #E7332B;
+}
+.btn-red-outline:hover:active{
+    background-color: #E7332B;
+    color: #fff;
 }
 
 .program-content .heading {
@@ -156,22 +166,162 @@ p {
     display: flex;
 flex-direction: column;
 justify-content: center;
+
 }
-.flex-1, .flex-2, .flex-3, .flex-4{
-    font-size: 3.5rem;
-  margin: 2rem auto;  
+img.footer-logo{
+    width: 100px;
+    height: 50px;
+    /* margin: 0 auto; */
+    left: 50%;
+    /* padding: 0 auto; */
+
+  
+}
+/* img.footer-logo{
+    margin-top: 6rem;
+    margin-bottom: 0.7rem;
+} */
+.flex-1{
+    /* margin-top: 3rem; */
+    margin: 0 auto;
+    /* padding: 14rem ; */
+    /* margin-bottom: 1rem; */
+    /* align-self:center; */
+}
+ .flex-2, .flex-3, .flex-4{
+    font-size: 3.7rem;
+  margin: 0 auto;  
   text-align: center;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   padding: 2rem;
 }
-.flex-3 h3{
-    font-size: 4.5rem;
+.flex-2 h3,.flex-3 h3{
+    font-size: 4.9rem;
     font-weight: 700;
+    opacity: 0.9;
 }
-.flex-3 p{
+.flex-2 p,{
     font-size: 2.3rem;
     opacity: 0.9;
 }
+.flex-3 p{
+    font-size: 2.05rem;
+    opacity: 0.9;
+}
+.contact-icons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+img.ig{
+    align-self: center;
+   width:
+  /* margin-bottom: 9 rem; */
+
+    
+}
+.flex-4 h3{
+    opacity: 0.9;
+    margin-top: 0;
+}
+.copyright{
+    text-align: center;
+}
+@media screen and (min-device-width: 730px) and (min-width:730px){
+
+.learnBG{
+    max-width: 700px;
+    padding: 10px;
+    text-align: center;
+    margin:0 auto;
+}
+.learnBG h1{
+    margin: 0 auto;
+}
+.learnBG p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #514949;
+        opacity: 0.9;
+}
+
+.btn-div{
+    display: flex;
+    gap: 1rem;
+    padding: 0.3rem;
+    justify-content: center;
+    margin: 0 auto;
+
+    
+}
+button.div{
+    margin: 0 5rem;
+}
+.first{
+    background-position: center center;
+}
+
+    button{
+         font-size: 1rem;
+    
+        }
+
+.my-container{
+    flex-direction: row;
+}
+.program-card {
+    /* height: 511px; */
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.program-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+.col{
+    padding: 0;
+    margin-right: 0;
+}
+.footer-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+text-align: left;
+}
+.flex-1 ,.flex-2,.flex-3,.flex-4{padding: 0;}
+.flex-1 p,.flex-2 p,.flex-3 p,.flex-4 p{font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+   
+    text-align: left;
+    background-color: #fff;
+}
+.flex-1 h3, .flex-2 h3, .flex-3 h3, .flex-4 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+    text-align: left;
+}
+.contact-icons{
+
+}
+
+}
+
 /*     
     img.zuri-training-svg{
    
