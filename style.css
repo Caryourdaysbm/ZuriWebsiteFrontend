@@ -78,7 +78,11 @@ button.btn {
     background-color: #E7332B;
     color: #fff;
 }
-.btn-red-bg:hover:active{
+.btn-red-bg:hover{
+    background-color: #fff;
+    color: #E7332B;
+}
+.btn-red-bg:active{
     background-color: #fff;
     color: #E7332B;
 }
@@ -90,11 +94,14 @@ button.btn {
     background-color: #fff;
     color: #E7332B;
 }
-.btn-red-outline:hover:active{
+.btn-red-outline:hover{
     background-color: #E7332B;
     color: #fff;
 }
-
+.btn-red-outline:active{
+    background-color: #E7332B;
+    color: #fff;
+}
 .program-content .heading {
     font-size: 0.7rem;
     line-height: 2rem;
