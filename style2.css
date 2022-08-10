@@ -144,7 +144,7 @@ align-items: center;
             flex-flow: row wrap;
             margin-top: -16px;
             width: 100%;
-            margin-left: -16px;
+            margin-left: -33px;
         
     }
     .inn{
@@ -160,7 +160,7 @@ align-items: center;
     }
     .lad > .root {
         padding-top: 16px;
-        padding-left: 0px;
+        padding-left: 16px;
     }
     .lady1 {
         mix-blend-mode: darken;
@@ -173,7 +173,7 @@ align-items: center;
         max-width: 50%;
     }
     .type1 {
-        margin: 0px;
+        margin: 0 auto;
         font-family: Roboto, Helvetica, Arial, sans-serif;
         font-weight: 400;
         font-size: 1rem;
@@ -207,10 +207,10 @@ align-items: center;
         margin-bottom: 28px;}
 
 .line{
-margin-right: 100px;
+margin-left: 13.75rem;
 } 
 .lin{
-    width: 33%;
+    width: 50%;
 }
 .large2 {
     color: #1b1a20;
@@ -219,14 +219,19 @@ margin-right: 100px;
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
-    margin: auto;
+    margin: 0 auto;
     padding-bottom: 40px;
     text-align: center;
-    width: 68%;
+    /* width: 68%; */
+}
+.col-btn{
+    margin: 0 auto;
 }
 .style{
     display: flex;
     justify-content: center;
+    
+    margin: 0 auto;
 } 
 .enroll2 {
     display: inline-flex;
@@ -271,12 +276,14 @@ margin-right: 100px;
     display: flex;
     justify-content: end;
     margin: auto;
+    /* margin-left: 2 rem; */
 }
 .line6 {
-    width: 40%;
+    /* width: 40%; */
 }
-.line2 {
-    width: 35%;
+svg.line2 {
+    /* width: 35%; */
+    margin-left: 10rem;
 }
 .line3 {
     margin-left: 33px;
