@@ -287,21 +287,151 @@ svg.line2 {
 }
 .line3 {
     margin-left: 33px;
-    margin-top: -141px!important;
-    max-width: 1440px!important;
+    margin-top: -141px;
+    max-width: 1440px;
     position: absolute;
-    width: 54px!important;
+    width: 54px;
 }
 .man{
     display: flex;
     align-items: center;
 }
 .male1 {
-    margin-left: -26px!important;
-    mix-blend-mode: darken!important;
-    width: 110%!important;
+    margin-left: -26px;
+    mix-blend-mode: darken;
+    width: 110%;
 }
- 
+hr {
+    border-color: rgba(0, 0, 0, 0.12);
+}
+.root2{
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 49px;
+    width: 90%;
+}
+.cla3{
+    display: flex;
+    align-items: center;
+}
+.clas3{
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 33.3333%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 33.3333%;
+}
+.section2{
+    color: #1b1a20;
+    font-family: Graphik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    padding-top: 0;
+    text-align: inherit;
+    text-transform: uppercase;
+}
+.mainsection2 {
+    display: flex;
+    justify-content: center;
+}
+.image2 {
+    mix-blend-mode: darken;
+    width: 55%;
+}
+.cla4{display: flex;
+align-items: center;}
+.showmore {
+    color: #1b1a20;
+    font-family: Graphik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    text-align: right;
+    width: 100%;
+}
+.hideread {
+    color: #43b97f;
+    cursor: pointer;
+}
+.root3 {
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 49px;
+    width: 89%;
+}
+.by {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.kift{
+    
+    flex-basis: 58.3333%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 58.3333%;
+}
+.cla5{
+    display: flex;
+    justify-content: center;
+}
+.section3small{
+    
+        color: #e7332b;
+        font-family: Graphik;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+}
+.section3large {
+    color: #1b1a20;
+    font-family: Graphik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.cla7{display: flex;
+align-items: center;}
+.rs{box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 41.6667%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 41.6667%;
+}
+.cla6{
+    display: flex;
+    justify-content: right;
+    margin-top: 95px;
+}
+.bg1{
+    background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0));
+}
+.root4 {
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 49px;
+    width: 92%;
+}
+.wgb{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -24px;
+    width: calc(100% + 24px);
+    margin-left: -24px;
+}
 @media screen and (max-width:760px) {
     
 .roo.abt.ton-root, .overflow-span{
@@ -312,5 +442,51 @@ svg.line2 {
     inset: 0px;
     border-radius: inherit;
 }
-
+.clas3{flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;}
+    .section2 {
+        color: #1b1a20;
+        font-family: Graphik;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+        text-transform: uppercase;
+    }
+    .image2 {
+        width: 55%;
+    }
+    .image2, .start {
+        mix-blend-mode: darken;
+    }
+    .showmore {
+        color: #1b1a20;
+        font-family: Graphik;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        text-align: right;
+    }
+    .kift{
+        
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
 }
+.rs{
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%
+}
+    }
